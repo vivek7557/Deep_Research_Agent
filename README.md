@@ -1,4 +1,3 @@
-[README (1).md](https://github.com/user-attachments/files/23436677/README.1.md)
 # Deep Research Agent — Planning Agent for Deep Research & Structured Report Generation
 
 This repository contains a notebook that builds a Planning Agent for deep research and structured report generation using LangGraph + LangChain and web-search (Tavily). The agent plans a wiki-style report, runs parallel web research for sections, drafts each section with LLMs, and composes a final Markdown report.
