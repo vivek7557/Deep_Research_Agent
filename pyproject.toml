@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deep-research-agent"
+version = "0.1.0"
+description = "Planning Agent for deep research and structured report generation (notebooks + utilities)."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+  { name = "vivek7557" }
+]
+keywords = ["langchain", "langgraph", "research-agent", "tavily"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+]
+
+dependencies = [
+  "langchain==0.3.14",
+  "langchain-openai==0.3.0",
+  "langchain-community==0.3.14",
+  "langgraph==0.2.64",
+  "rich",
+  "tiktoken",
+  "openai>=1.58.1",
+  "python-dotenv",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/vivek7557/Deep_Research_Agent"
+"Repository" = "https://github.com/vivek7557/Deep_Research_Agent"
+
+[tool.setuptools]
+# If your code uses a src/ layout change find to point there.
+[tool.setuptools.packages.find]
+include = ["*"]
